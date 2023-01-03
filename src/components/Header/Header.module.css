@@ -1,0 +1,69 @@
+.Header {
+    width: 100%;
+    height: 8rem;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 1px rgba(76, 224, 210, 0.8);
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    color: rgba(19, 111, 99, 1);
+    z-index: 1;
+}
+
+.Header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 25rem;    
+    font-size: 1.2rem;
+    height: inherit;
+    margin: auto;
+}
+
+.Header p {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+.Header div a {
+    text-decoration: none;
+    background-color: rgba(34, 170, 161, 1);
+    color: #fff;
+    font-family: 'MuseoModerno', sans-serif;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Header div a:is(:hover, :active, :focus) {
+    background-color: #fff;
+    color: rgba(19, 111, 99, 1);
+    border: 2px rgba(19, 111, 99, 1) solid;
+}
+
+@media only screen and (min-width: 320px) {
+    .Header div {
+        max-width: 60rem;    
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Header div {
+        max-width: 85rem;    
+        font-size: 2rem;
+    }
+}
+
+    @media only screen and (min-width: 1200px) {
+        .Header div {
+            max-width: 115rem;    
+            font-size: 2rem;
+        }
+}

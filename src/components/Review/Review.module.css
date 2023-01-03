@@ -1,0 +1,61 @@
+.Review {
+    font-size: 1.5rem;
+    width: 80%;
+    max-width: 20rem;
+    margin: 120px auto auto;
+}
+
+.Review h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgba(19, 111, 99, 1);
+    font-family: 'MuseoModerno', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.Review h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.Review section > div {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+    margin-top: 4rem;
+}
+
+.Review section > div button {
+    text-transform: uppercase;
+    color: rgba(34, 170, 161, 1);
+    padding: 10px 15px;
+    border: 4px solid rgba(34, 170, 161, 1);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.Review section > div button:is(:hover, :active, :focus) {
+    background-color: rgba(34, 170, 161, 1);
+    color: #fff;  
+    outline: transparent;
+}
+
+@media only screen and (min-width: 320px) {
+    .Review {
+        max-width: 55rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Review {
+        max-width: 80rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .Review {
+        max-width: 110rem;
+    }
+}

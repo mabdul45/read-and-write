@@ -1,0 +1,23 @@
+.Footer {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(19, 111, 99, .8);
+    margin-top: 4rem;
+    margin-bottom: .3rem;
+    padding: 1rem 0;
+    height: 6rem;
+}
+
+
+.Footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Footer a:hover {
+    color: blue;
+}

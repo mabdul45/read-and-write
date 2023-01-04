@@ -2,7 +2,7 @@
     font-size: 1.5rem;
     width: 80%;
     max-width: 20rem;
-    margin: 11rem auto auto;
+    margin: 13rem auto auto;
 }
 
 .Review h4 {
@@ -10,13 +10,13 @@
     font-size: 1.8rem;
     color: rgba(19, 111, 99, 1);
     font-family: 'MuseoModerno', sans-serif;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .Review h6 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 16px;
+    margin-top: 5px;
 }
 
 .Review section > div {

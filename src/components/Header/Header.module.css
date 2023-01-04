@@ -36,7 +36,7 @@
     color: #fff;
     font-family: 'MuseoModerno', sans-serif;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: none;
     cursor: pointer;
 }
@@ -65,5 +65,9 @@
         .Header div {
             max-width: 115rem;    
             font-size: 2rem;
+        }
+        .Header div a {
+            border-radius: 4px;
+            padding: 10px 20px;
         }
 }

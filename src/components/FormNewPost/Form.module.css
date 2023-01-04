@@ -23,23 +23,32 @@
     font-family: 'MuseoModerno', sans-serif;
 }
 
-.Form input, .Form textarea  {
+.Form input, .wrapper  {
     width: 100%;
     padding: 5px 7px;
     resize: none;
-    border: 2px solid rgba(19, 111, 99, 1);
+    border: 1px solid rgba(19, 111, 99, 1);
+    box-sizing: border-box;
 }
 
-.Form textarea {
-    height: 40vh;
-}
+.wrapper{
+    border: 1px solid rgba(19, 111, 99, 1);
+    padding: 0 0;
+    height: 100%;
+  }
+  
+.editor{
+    background-color: lavender;
+    height: 30vh;
+  }
 
-.Form input:focus, .Form textarea:focus {
+.Form input:focus, .editor:focus {
     outline: rgba(19, 111, 99, 1);
     border: 2px solid rgba(19, 111, 99, 1);
+    box-sizing: border-box;
 }
 
-.Form a {
+.Form section > div:last-child > a {
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
@@ -52,7 +61,7 @@
     margin-top: 20px;
 }
 
-.Form a:hover {
+.Form section > div:last-child > a:hover {
     padding: 10px 18px;
     border-radius: 4px;
     margin-top: 20px;

@@ -20,6 +20,7 @@
     margin: 20px 0 4px;
     font-weight: 500;
     color: rgba(19, 111, 99, 1);
+    font-family: 'MuseoModerno', sans-serif;
 }
 
 .Form input, .Form textarea  {

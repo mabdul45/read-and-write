@@ -30,7 +30,7 @@
     font-family: 'MuseoModerno', sans-serif;
     text-decoration: none;
     color: inherit;
-    cursor: none;
+    cursor: default;
 }
 
 .Header div a:last-child {

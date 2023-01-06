@@ -22,15 +22,17 @@
     margin: auto;
 }
 
-.Header p {
-    user-select: none;
+.Header a:first-child {
     -webkit-user-select: none;
+    user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     font-family: 'MuseoModerno', sans-serif;
+    text-decoration: none;
+    color: inherit;
 }
 
-.Header div a {
+.Header div a:last-child {
     text-decoration: none;
     background-color: rgba(34, 170, 161, 1);
     color: #fff;
@@ -41,7 +43,7 @@
     cursor: pointer;
 }
 
-.Header div a:is(:hover, :active, :focus) {
+.Header div a.active:is(:hover, :active, :focus) {
     background-color: #fff;
     color: rgba(19, 111, 99, 1);
     border: 2px rgba(19, 111, 99, 1) solid;

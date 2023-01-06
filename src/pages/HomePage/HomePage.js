@@ -1,11 +1,13 @@
 import React from "react";
 
-import classes from "./Stories.module.css"
-import Post from "../../../components/Post/Post";
+import classes from "./HomePage.module.css"
+import Header from "../../components/Header/Header"
+import Post from "../../components/Post/Post";
 
-const stories = () => {
+const HomePage = () => {
     return (
         <div className={classes.Stories}>
+            <Header />
             <h1>
                 Top Stories
             </h1>
@@ -23,4 +25,4 @@ const stories = () => {
     )
 }
 
-export default stories
+export default HomePage

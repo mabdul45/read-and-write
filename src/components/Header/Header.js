@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 const header = () => (
     <header className={Classes.Header}>
         <div>
-            <p>Read & Write</p>
-            <NavLink to="/form">Be a Contributor</NavLink >
+            <NavLink to="/">Read & Write</NavLink>
+            <NavLink className={Classes.active} to="/form">Be a Contributor</NavLink >
         </div>
     </header>
 )
